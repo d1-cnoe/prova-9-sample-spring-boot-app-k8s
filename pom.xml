@@ -57,7 +57,7 @@
                         <configuration>
                             <additionalProperties>
                                      <!-- ${java.version} -->
-                                <java.target>17</java.target>
+                                <!--<java.target>${java.version}</java.target>-->
                                 <time>${maven.build.timestamp}</time>
                             </additionalProperties>
                         </configuration>
