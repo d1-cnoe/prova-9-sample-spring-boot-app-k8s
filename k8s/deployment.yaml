@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: prova-9-sample-spring-boot-app-k8s
-          image: d1-cnoe/prova-9-sample-spring-boot-app-k8s
+          image: ghcr.io/d1-cnoe/prova-9-sample-spring-boot-app-k8s
           ports:
             - containerPort: 8080
           readinessProbe:
